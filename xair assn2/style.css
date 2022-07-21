@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+body{
+    background-color: #000000 !important ;
+    color: white!important;
+    width: 100%!important;
+}
+
+a{
+    text-decoration: none!important;
+    display: block;
+    transition: 1s!important;
+}
+a:hover{
+    color: yellow!important;
+    transition: 1s!important;
+}
+
+
+nav{
+    z-index: 100;
+    background-color: #000000;
+    transition: 2s!important;
+}
+
+
+#aboutMe img {
+    width: 100%;
+}
+
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+.image-hover figure img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.image-hover figure:hover img {
+    transform: scale(1.3);
+}
+
+.square-peg{
+    font-family: 'Square Peg', sans-serif;
+}
+
+.card{
+    background-color: #212529!important;
+}
+
+.card .image-hover, img{
+    height: 300px;
+}
+
+.title-block{
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    background-color: #1c2331
+}
